@@ -1,0 +1,27 @@
+{
+  "name": "happy-validator",
+  "description": "Utils for Node Validator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/HappyBerrysBoy/happy-validator",
+  "keywords": [
+    "validator",
+    "check",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HappyBerrysBoy/happy-validator.git"
+  },
+  "main": "lib/validator.js",
+  "scripts": {
+    "test": "node --use-strict index.js"
+  },
+  "dependencies": {
+    "es6-error": "^4.0.2",
+    "happy-moment": "^1.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "should": "*"
+  }
+}
